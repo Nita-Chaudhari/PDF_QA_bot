@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './uploads'
 app.secret_key = 'Nikhil@2309'
 
-# Initialize the vectorstore globally
+# Initialize the vectorstore globally`saffa`
 vectorstore = None
 
 # Helper function to clear the vector store
